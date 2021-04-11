@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="adminFoodView" prefHeight="802.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminFoodController">
+    <children>
+          <TableView fx:id="foodTable" editable="true" layoutX="11.0" layoutY="172.0" prefHeight="477.0" prefWidth="527.0">
+              <columns>
+                  <TableColumn fx:id="imageColumn1" prefWidth="75.0" text="Image">
+
+                        </TableColumn>
+
+                  <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="name" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="categoryColumn" prefWidth="75.0" text="Category">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="category" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="Description">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="description" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="quantityColumn" prefWidth="75.0" text="Quantity">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="quantity" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="weightColumn" prefWidth="75.0" text="Weight">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="weight" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Price">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="price" />
+                      </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="fastingColumn" prefWidth="71.33330281575519" text="Fasting">
+                      <cellValueFactory>
+                          <PropertyValueFactory property="fastingItem" />
+                      </cellValueFactory>
+                  </TableColumn>
+              </columns>
+          </TableView>
+        <Button fx:id="searchButton" layoutX="422.0" layoutY="106.0" mnemonicParsing="false" onAction="#searchButtonOnAction" prefHeight="27.0" prefWidth="37.0">
+            <graphic>
+                <ImageView fx:id="searchLogo" fitHeight="20.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../Assets/search.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <TextField fx:id="textFieldSearch" layoutX="11.0" layoutY="106.0" prefHeight="30.0" prefWidth="405.0" promptText="Search product" />
+        <Button layoutX="558.0" layoutY="420.0" mnemonicParsing="false" onAction="#deleteSelectedItemButtonOnAction" prefHeight="41.0" prefWidth="156.0" text="Delete selected item">
+            <font>
+                <Font name="Avenir Book" size="13.0" />
+            </font>
+        </Button>
+        <Button layoutX="558.0" layoutY="366.0" mnemonicParsing="false" onAction="#editSelectedItemButtonOnAction" prefHeight="41.0" prefWidth="156.0" text="Edit selected product">
+            <font>
+                <Font name="Avenir Book" size="13.0" />
+            </font>
+        </Button>
+        <Button layoutX="558.0" layoutY="308.0" mnemonicParsing="false" onAction="#addNewProductButtonOnAction" prefHeight="41.0" prefWidth="156.0" text="Add new product">
+            <font>
+                <Font name="Avenir Book" size="13.0" />
+            </font>
+        </Button>
+        <Label layoutX="229.0" layoutY="43.0" text="Admin's food menu">
+            <font>
+                <Font name="Avenir Book" size="24.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="logoView" fitHeight="200.0" fitWidth="200.0" layoutX="536.0" layoutY="106.0">
+            <image>
+                <Image url="@../../../../Assets/logo.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

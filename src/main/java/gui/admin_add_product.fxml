@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="726.0" prefWidth="724.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminAddProductController">
+    <children>
+        <Label layoutX="296.0" layoutY="30.0" text="Add Product">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="169.0" layoutY="80.0" prefHeight="26.0" prefWidth="38.0" text="Name">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="image" layoutX="168.0" layoutY="532.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="170.0" layoutY="142.0" text="Category">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="category" layoutX="169.0" layoutY="162.0" prefHeight="26.0" prefWidth="386.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Ciorba" />
+                    <String fx:value="Desert" />
+                    <String fx:value="Fel principal" />
+                    <String fx:value="Garnitura" />
+                    <String fx:value="Salata" />
+                    <String fx:value="Altele" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Label layoutX="168.0" layoutY="200.0" text="Description">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="description" layoutX="170.0" layoutY="228.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="169.0" layoutY="267.0" text="Fasting Item">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="fasting" layoutX="171.0" layoutY="295.0" prefHeight="26.0" prefWidth="386.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Yes" />
+                    <String fx:value="No" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <Label layoutX="169.0" layoutY="336.0" prefHeight="18.0" prefWidth="76.0" text="Price">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="price" layoutX="171.0" layoutY="356.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="170.0" layoutY="387.0" prefHeight="26.0" prefWidth="67.0" text="Quantity">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="quantity" layoutX="171.0" layoutY="413.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="170.0" layoutY="450.0" prefHeight="26.0" prefWidth="56.0" text="Weight">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="weight" layoutX="171.0" layoutY="476.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="170.0" layoutY="512.0" text="Image URL">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button layoutX="205.0" layoutY="598.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="30.0" prefWidth="319.0" style="-fx-background-color: #ad3636 #ad3636;" text="Save" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Avenir Book" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="206.0" layoutY="642.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="30.0" prefWidth="319.0" style="-fx-background-color: #da8888#da8888 #da8888#da8888 #da8888#da8888 #da8888#da8888;" text="Cancel" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Avenir Book" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="227.0" layoutY="568.0" text="Image should be placed in AssetsBis directory!">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="prodName" layoutX="169.0" layoutY="106.0" prefHeight="26.0" prefWidth="386.0" />
+        <Label layoutX="226.0" layoutY="59.0" prefHeight="42.0" prefWidth="357.0" />
+        <Label fx:id="productNameMessage" layoutX="250.0" layoutY="65.0" prefHeight="35.0" prefWidth="358.0" />
+        <Label fx:id="categoryMessage" layoutX="248.0" layoutY="131.0" prefHeight="30.0" prefWidth="346.0" />
+        <Label fx:id="fastingItemMessage" layoutX="260.0" layoutY="257.0" prefHeight="35.0" prefWidth="328.0" />
+        <Label fx:id="priceMessage" layoutX="257.0" layoutY="323.0" prefHeight="30.0" prefWidth="328.0" />
+        <Label fx:id="quantityMessage" layoutX="260.0" layoutY="384.0" prefHeight="26.0" prefWidth="328.0" />
+        <Label fx:id="weightMessage" layoutX="260.0" layoutY="444.0" prefHeight="30.0" prefWidth="328.0" />
+        <Label fx:id="imageURLMessage" layoutX="260.0" layoutY="502.0" prefHeight="30.0" prefWidth="328.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SoftwareDesignTemplate" />
+        <module name="Proiect-IS-30-dec" />
+        <module name="Proiect-IS" />
+        <module name="Proiect IS - 4.01.2021 - S" />
+        <module name="Proiect IS - 3.01.2021 - E" />
+        <module name="Proiect IS - C - latest" />
+        <module name="SoftwareDesignTemplate-1" />
+        <module name="Proiect-IS 2" />
+        <module name="Proiect IS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>

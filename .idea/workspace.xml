@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a969b459-c450-464b-a7a4-3ce53f66540f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YdEeHVfinm4H594oAvwJYfdvWt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../An III, Sem II/PS/Laborator/A_1/2021-ps-a1-NemesEmilia" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nemes Emilia\Desktop\An_III_Sem_I\IS\12_dec\Proiect-IS" />
+      <recent name="C:\Users\Nemes Emilia\Desktop\An_III_Sem_I\IS\12_dec\Proiect-IS\src\sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nemes Emilia\Desktop\An_III_Sem_I\IS\12_dec\Proiect-IS\src\main\java\gui" />
+      <recent name="C:\Users\Nemes Emilia\Desktop\An_III_Sem_I\IS\12_dec\Proiect-IS\src\main\interface" />
+      <recent name="C:\Users\Nemes Emilia\Desktop\An_III_Sem_I\IS\12_dec\Proiect-IS\src\main\java\start" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ApplicationStart">
+    <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_271" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="start.ApplicationStart" />
+      <module name="Proiect IS - C - latest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.ApplicationStart" />
+      <module name="Proiect IS - C - latest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.ApplicationStart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a969b459-c450-464b-a7a4-3ce53f66540f" name="Default Changelist" comment="" />
+      <created>1583264164453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583264164453</updated>
+      <workItem from="1603029859755" duration="320000" />
+      <workItem from="1603119225536" duration="352000" />
+      <workItem from="1603130971291" duration="299000" />
+      <workItem from="1603170322188" duration="4443000" />
+      <workItem from="1604773349250" duration="10895000" />
+      <workItem from="1604853845343" duration="2879000" />
+      <workItem from="1604857521149" duration="5000" />
+      <workItem from="1604989523378" duration="4095000" />
+      <workItem from="1605369676760" duration="16737000" />
+      <workItem from="1605434576754" duration="4283000" />
+      <workItem from="1605447962593" duration="370000" />
+      <workItem from="1606063303907" duration="1755000" />
+      <workItem from="1606125594454" duration="44000" />
+      <workItem from="1606295453764" duration="5668000" />
+      <workItem from="1607589170760" duration="43063000" />
+      <workItem from="1607701410016" duration="739000" />
+      <workItem from="1607794240369" duration="12704000" />
+      <workItem from="1607879489015" duration="13078000" />
+      <workItem from="1607894982663" duration="160000" />
+      <workItem from="1607979595364" duration="939000" />
+      <workItem from="1607980680136" duration="815000" />
+      <workItem from="1607981760366" duration="5916000" />
+      <workItem from="1609158853396" duration="16797000" />
+      <workItem from="1609188288771" duration="8281000" />
+      <workItem from="1609241234027" duration="1831000" />
+      <workItem from="1609323904352" duration="1229000" />
+      <workItem from="1609325181787" duration="203000" />
+      <workItem from="1609325776487" duration="31168000" />
+      <workItem from="1609370433714" duration="4375000" />
+      <workItem from="1609407321298" duration="13265000" />
+      <workItem from="1609509925794" duration="35515000" />
+      <workItem from="1609684647118" duration="13091000" />
+      <workItem from="1609701019677" duration="9825000" />
+      <workItem from="1609712265720" duration="1172000" />
+      <workItem from="1609763901906" duration="3038000" />
+      <workItem from="1609774924919" duration="9282000" />
+      <workItem from="1609787282643" duration="7378000" />
+      <workItem from="1609799687266" duration="64000" />
+      <workItem from="1609826553144" duration="1249000" />
+      <workItem from="1615667157646" duration="893000" />
+      <workItem from="1615668077995" duration="1717000" />
+      <workItem from="1615886121561" duration="228000" />
+      <workItem from="1615886390757" duration="9842000" />
+      <workItem from="1616000667508" duration="898000" />
+      <workItem from="1616047955808" duration="160000" />
+      <workItem from="1616142578278" duration="359000" />
+      <workItem from="1616146213292" duration="8666000" />
+      <workItem from="1616264044368" duration="8976000" />
+      <workItem from="1616331724596" duration="1204000" />
+      <workItem from="1616403251685" duration="559000" />
+      <workItem from="1616404858041" duration="2759000" />
+      <workItem from="1616496075566" duration="610000" />
+      <workItem from="1616504225506" duration="16438000" />
+      <workItem from="1616582529226" duration="612000" />
+      <workItem from="1616597964095" duration="3779000" />
+      <workItem from="1616664972077" duration="1145000" />
+      <workItem from="1616685186817" duration="1240000" />
+      <workItem from="1616749181022" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1615912071062">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1615912071062" />
+    <state x="96" y="0" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615893161575">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="0" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1615893161575" />
+    <state x="444" y="102" key="FileChooserDialogImpl" timestamp="1616269961390">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="444" y="102" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1616269961390" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1616632559613">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1616632559613" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1616632559613">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1616632559613" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1616632559613">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1616632559613" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1616632559613">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1616632559613" />
+    <state width="1237" height="63" key="GridCell.Tab.1.bottom" timestamp="1616543775940">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="63" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1616543775940" />
+    <state width="1237" height="63" key="GridCell.Tab.1.center" timestamp="1616543775939">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="63" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1616543775939" />
+    <state width="1237" height="63" key="GridCell.Tab.1.left" timestamp="1616543775939">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="63" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1616543775939" />
+    <state width="1237" height="63" key="GridCell.Tab.1.right" timestamp="1616543775939">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="63" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1616543775939" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1615892798024">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1615892798024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AdminMenu.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="fxmlLoader.root" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Proiect_IS$ApplicationStart.ic" NAME="ApplicationStart Coverage Results" MODIFIED="1609615567038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>start.*</FILTER>
+    </SUITE>
+  </component>
+</project>

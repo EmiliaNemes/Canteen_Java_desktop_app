@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="670.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminProfileController">
+   <children>
+      <Label layoutX="254.0" layoutY="56.0" prefHeight="35.0" prefWidth="163.0" text="My Account">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="adminNameLabel" alignment="CENTER" layoutX="186.0" layoutY="91.0" prefHeight="49.0" prefWidth="260.0" textAlignment="CENTER" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="150.0" text="Username" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="confirmPasswordTextField" layoutX="155.0" layoutY="311.0" prefHeight="25.0" prefWidth="363.0" promptText="Confirm Password" />
+      <PasswordField fx:id="passwordTextField" layoutX="155.0" layoutY="258.0" prefHeight="25.0" prefWidth="363.0" promptText="Password" />
+      <TextField fx:id="usernameTextField" editable="false" focusTraversable="false" layoutX="153.0" layoutY="176.0" prefHeight="28.0" prefWidth="363.0" promptText="Username" />
+      <Label layoutX="156.0" layoutY="224.0" text="Password" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="284.0" text="Confirm Password" textFill="#5b0909">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstnameTextField" layoutX="155.0" layoutY="387.0" prefHeight="25.0" prefWidth="363.0" promptText="Firstname" />
+      <TextField fx:id="lastnameTextField" layoutX="154.0" layoutY="460.0" prefHeight="25.0" prefWidth="363.0" promptText="Lastname" />
+      <TextField fx:id="emailTextField" layoutX="155.0" layoutY="521.0" prefHeight="25.0" prefWidth="363.0" promptText="Email" />
+      <Label layoutX="156.0" layoutY="350.0" text="Firstname" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="425.0" text="Lastname" textFill="#5b0909">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="494.0" text="Email" textFill="#5b0909">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phoneNumberTextField" layoutX="155.0" layoutY="573.0" prefHeight="25.0" prefWidth="363.0" promptText="Phone number" />
+      <Label layoutX="156.0" layoutY="547.0" text="Phone number" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveButton" layoutX="179.0" layoutY="622.0" mnemonicParsing="false" onAction="#saveButtonOnAction" prefHeight="32.0" prefWidth="137.0" style="-fx-background-color: #ad3636 #ad3636;" text="Save" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="356.0" layoutY="622.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="32.0" prefWidth="137.0" style="-fx-background-color: #da8888#da8888 #da8888#da8888 #da8888#da8888 #da8888#da8888;" text="Cancel" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="passwordConfirmLabel" layoutX="282.0" layoutY="284.0" prefHeight="19.0" prefWidth="374.0" textFill="#a11010">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordMessage" layoutX="226.0" layoutY="209.0" prefHeight="49.0" prefWidth="355.0" wrapText="true" />
+      <Label fx:id="firstNameMessage" layoutX="226.0" layoutY="335.0" prefHeight="49.0" prefWidth="289.0" wrapText="true" />
+      <Label fx:id="lastNameMessage" layoutX="226.0" layoutY="410.0" prefHeight="49.0" prefWidth="289.0" wrapText="true" />
+      <Label fx:id="emailMessage" layoutX="202.0" layoutY="489.0" prefHeight="28.0" prefWidth="363.0" />
+      <Label fx:id="phoneNumberMessage" layoutX="264.0" layoutY="544.0" prefHeight="25.0" prefWidth="381.0" />
+   </children>
+</AnchorPane>

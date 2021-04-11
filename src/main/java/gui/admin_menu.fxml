@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminMenu">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-8.0" prefHeight="684.0" prefWidth="265.0" style="-fx-background-color: #ed8888;">
+         <children>
+            <ImageView fx:id="adminLogo" fitHeight="117.0" fitWidth="127.0" layoutX="73.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Assets/admin.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="editProfileLabel" layoutX="90.0" layoutY="282.0" onMouseClicked="#editProfileLabelOnAction" text=" Edit profile" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Book" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="logoutLabel" layoutX="106.0" layoutY="310.0" onMouseClicked="#logoutLabelOnAction" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Book" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="editProfileLogo" fitHeight="17.0" fitWidth="17.0" layoutX="70.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Assets/edit.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="logoutLogo" fitHeight="18.0" fitWidth="18.0" layoutX="79.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Assets/logout.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="foodMenuButton" layoutX="118.0" layoutY="386.0" onMouseClicked="#foodMenuOnAction" text="Food " textFill="WHITE">
+               <font>
+                  <Font name="Avenir Next Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="drinkMenuButton" layoutX="109.0" layoutY="437.0" onMouseClicked="#drinkMenuOnAction" prefHeight="35.0" prefWidth="78.0" text="Drinks" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Next Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="contactMenuButton" layoutX="102.0" layoutY="486.0" onMouseClicked="#contactMenuOnAction" text="Contact" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Next Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="61.0" text="Welcome, Admin!" textFill="WHITE">
+               <font>
+                  <Font name="Avenir Book" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="adminNameLabel" alignment="CENTER" layoutX="71.0" layoutY="242.0" prefHeight="28.0" prefWidth="134.0" text=" " textAlignment="CENTER" textFill="#5b0909">
+               <font>
+                  <Font name="Avenir Book" size="19.0" />
+               </font>
+            </Label>
+            <Separator layoutX="60.0" layoutY="425.0" prefWidth="150.0" />
+            <Separator layoutX="60.0" layoutY="482.0" prefWidth="150.0" />
+            <ImageView fx:id="foodLogo" fitHeight="28.0" fitWidth="34.0" layoutX="77.0" layoutY="388.0">
+               <image>
+                  <Image url="@../../../../Assets/food.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="drinkLogo" fitHeight="28.0" fitWidth="36.0" layoutX="68.0" layoutY="440.0">
+               <image>
+                  <Image url="@../../../../Assets/drink.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="contactLogo" fitHeight="25.0" fitWidth="27.0" layoutX="69.0" layoutY="491.0">
+               <image>
+                  <Image url="@../../../../Assets/contact.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="adminMainPane" layoutX="259.0" layoutY="-3.0" prefHeight="658.0" prefWidth="670.0">
+         <children>
+            <ImageView fx:id="foodBackground" fitHeight="678.0" fitWidth="722.0">
+               <image>
+                  <Image url="@../../../../Assets/food_background.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

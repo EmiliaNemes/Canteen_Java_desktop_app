@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="orderView" prefHeight="600.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerOrderController">
+   <children>
+      <ImageView fx:id="cartImageView" fitHeight="43.0" fitWidth="50.0" layoutX="186.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Assets/order.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="245.0" layoutY="52.0" text="Your order">
+         <font>
+            <Font name="Avenir Book" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="445.0" text="Total:">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="506.0" text="Time:">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="477.0" text="Payment:">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel" layoutX="319.0" layoutY="445.0" text="20 ron" textFill="#821919">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="orderTimeLabel" layoutX="313.0" layoutY="506.0" text="45min" textFill="#821919">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="paymentLabel" layoutX="342.0" layoutY="478.0" text="ramburs" textFill="#821919">
+         <font>
+            <Font name="Avenir Book" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="deliveryButton" layoutX="65.0" layoutY="141.0" mnemonicParsing="false" onAction="#deliveryOnAction" prefHeight="6.0" prefWidth="169.0" text="Home Delivery">
+         <font>
+            <Font name="Avenir Book" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="takeInButton" layoutX="378.0" layoutY="141.0" mnemonicParsing="false" onAction="#takeInOnAction" prefHeight="30.0" prefWidth="116.0" text="Take-in">
+         <font>
+            <Font name="Avenir Book" size="20.0" />
+         </font>
+      </RadioButton>
+      <ImageView fx:id="deliveryImageView" fitHeight="127.0" fitWidth="169.0" layoutX="69.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Assets/delivery.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="takeInImageView" fitHeight="187.0" fitWidth="193.0" layoutX="363.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Assets/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="48.0" layoutY="403.0" text="Delivery Address*">
+         <font>
+            <Font name="Avenir Book" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="407.0" text="Order details">
+         <font>
+            <Font name="Avenir Book" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="456.0" layoutY="407.0" text="Proceed">
+         <font>
+            <Font name="Avenir Book" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="346.0" text="* 5 ron delivery costs" textFill="#6b0909">
+         <font>
+            <Font name="Avenir Book" size="11.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmButton" layoutX="439.0" layoutY="451.0" mnemonicParsing="false" onAction="#confirmOrderOnAction" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: #9c1414;" text="Confirm order" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelOrderButton" layoutX="440.0" layoutY="498.0" mnemonicParsing="false" onAction="#cancelOrderOnAction" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: #de9999;" text="Cancel order" textFill="WHITE">
+         <font>
+            <Font name="Avenir Book" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="addressTextField" layoutX="48.0" layoutY="436.0" prefHeight="100.0" prefWidth="161.0" promptText="Type your Cluj-Napoca Address" />
+   </children>
+</AnchorPane>

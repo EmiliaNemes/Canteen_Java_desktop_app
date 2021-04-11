@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="616.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerContactView">
+    <children>
+        <Label layoutX="197.0" layoutY="78.0" prefHeight="35.0" prefWidth="193.0" text="Cantina - Contact">
+            <font>
+                <Font name="Avenir Book" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="150.0" prefHeight="20.0" prefWidth="104.0" text="Phone number:" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="249.0" layoutY="326.0" prefHeight="18.0" prefWidth="90.0" text="Schedule" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="21.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="181.0" prefHeight="20.0" prefWidth="52.0" text="Email:" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="394.0" layoutY="150.0" prefHeight="20.0" prefWidth="84.0" text="Notifications:" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="40.0" layoutY="386.0" prefHeight="27.0" prefWidth="71.0" text="Monday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="362.0" layoutY="387.0" prefHeight="27.0" prefWidth="82.0" text="Thursday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="238.0" layoutY="386.0" prefHeight="27.0" prefWidth="102.0" text="Wednesday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="137.0" layoutY="387.0" prefHeight="27.0" prefWidth="73.0" text="Tuesday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="480.0" layoutY="387.0" prefHeight="20.0" prefWidth="58.0" text="Friday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="310.0" layoutY="487.0" prefHeight="27.0" prefWidth="63.0" text="Sunday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="201.0" layoutY="487.0" prefHeight="27.0" prefWidth="73.0" text="Saturday" textFill="#5b0909">
+            <font>
+                <Font name="Avenir Book" size="18.0" />
+            </font>
+        </Label>
+      <Label layoutX="69.0" layoutY="215.0" prefHeight="20.0" prefWidth="63.0" text="Address:" textFill="#5b0909">
+         <font>
+            <Font name="Avenir Book" size="14.0" />
+         </font>
+      </Label>
+      <Text fx:id="phoneNumberText" layoutX="180.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="phone" wrappingWidth="138.46759033203125">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="emailText" layoutX="134.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="addressText" layoutX="69.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="address" wrappingWidth="186.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="notificationsText" layoutX="395.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="notifications" wrappingWidth="118.46320133898746">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="mondayText" layoutX="-13.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="monday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="tuesdayText" layoutX="85.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tuesday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="wednesdayText" layoutX="201.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wednesday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="thursdayText" layoutX="315.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="thursday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="fridayText" layoutX="413.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="friday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="saturdayText" layoutX="150.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="saturday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="sundayText" layoutX="253.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sunday" textAlignment="CENTER" wrappingWidth="177.0">
+         <font>
+            <Font name="Avenir Book" size="13.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
